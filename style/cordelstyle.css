@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+
+:root {
+ --fonte-padrao: "Sriracha", serif;
+
+}
+
+html, body {
+    min-height: 100vh;
+    background-color:white;
+}
+
+body p {
+    font-family:var(--fonte-padrao);
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+
+
+header > h1{
+    font-family: "Passion One", serif;
+    font-weight: bold;
+    font-size: 10vw;
+    font-variant: small-caps;
+    padding-top: 50px;
+}
+
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -0.4em;
+    padding-bottom: 42.9px;
+}
+
+
+header  a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header  a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+body p {
+
+   line-height: 2em;
+}
+
+section {
+    padding-top: 10.2vh;
+    padding-bottom: 10.2vh;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    background-color: white;
+    line-height: 2em;
+    
+    
+}
+
+section > p {
+    padding-bottom: 2em;
+
+}
+
+
+
+
+section.imagem {
+
+   
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+section.imagem > p {
+
+    background-color: rgba(0, 0, 0, 0.541);
+    display: inline-block;
+    padding-left: 0.3em ;
+    padding-right: 0.3em ;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    text-shadow: 1px 1px 0 black;
+   
+    }
+
+
+
+section#imagem1 {
+ 
+    background-position: right center;
+    background-image: url(../imagens/background001.jpg);
+    
+    
+    
+}
+
+
+section#imagem2 {
+
+    background-image: url(../imagens/background002.jpg);
+    box-shadow: inset 0.1em 1em 4em 0.1em rgba(0, 0, 0, 0.61); 
+    
+
+}
+
+
+
+
+
+
+section#padding{
+    padding-bottom: 3.5em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 0.2em;
+    
+    
+    
+   
+}
+ footer > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-left: 1.5em;
+    line-height: normal;
+    margin-top: 0.5em;
+   padding-bottom: 0.5em;
+ }
+
